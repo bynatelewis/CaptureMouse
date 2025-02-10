@@ -1,0 +1,294 @@
+[gd_scene load_steps=41 format=3 uid="uid://blv1stwsswqp3"]
+
+[ext_resource type="Script" uid="uid://dyuhh56rp71b1" path="res://Main.gd" id="1_hhjoy"]
+[ext_resource type="Texture2D" uid="uid://ef4188ntc27l" path="res://Sprites/SmolSlider/smolSlider_0001.png" id="2_oep84"]
+[ext_resource type="Texture2D" uid="uid://b0wboqb7aos6s" path="res://Sprites/SmolSlider/smolSlider_0002.png" id="3_eitnm"]
+[ext_resource type="Texture2D" uid="uid://btegd4uws2fv3" path="res://Sprites/SmolSlider/smolSlider_0003.png" id="4_cc7rp"]
+[ext_resource type="Texture2D" uid="uid://c71vajjlb37qd" path="res://Sprites/SmolSlider/smolSlider_0004.png" id="5_yfims"]
+[ext_resource type="Texture2D" uid="uid://cf5tsr0ps0naq" path="res://Sprites/SmolSlider/smolSlider_0005.png" id="6_gprdb"]
+[ext_resource type="Texture2D" uid="uid://bey73yaipjiq2" path="res://Sprites/SmolSlider/smolSlider_0006.png" id="7_cl6v7"]
+[ext_resource type="Texture2D" uid="uid://bvbehsjkttkre" path="res://Sprites/SmolSlider/smolSlider_0007.png" id="8_kc8nq"]
+[ext_resource type="Texture2D" uid="uid://co5c527p13xtu" path="res://Sprites/SmolSlider/smolSlider_0008.png" id="9_x4if3"]
+[ext_resource type="Texture2D" uid="uid://cove4txet8co8" path="res://Sprites/SmolSlider/smolSlider_0009.png" id="10_vfxwf"]
+[ext_resource type="Texture2D" uid="uid://co5kfnl6fjvis" path="res://Sprites/SmolSlider/smolSlider_0010.png" id="11_ei3gv"]
+[ext_resource type="Texture2D" uid="uid://disvu4oqb4wn2" path="res://Sprites/SmolSlider/smolSlider_0011.png" id="12_rkmhd"]
+[ext_resource type="Texture2D" uid="uid://cfhxlwvctvxt1" path="res://Sprites/SmolSlider/smolSlider_0012.png" id="13_3klky"]
+[ext_resource type="Texture2D" uid="uid://pgh8mclsuj4p" path="res://Sprites/SmolSlider/smolSlider_0013.png" id="14_ffp6j"]
+[ext_resource type="Texture2D" uid="uid://cxclew3txay43" path="res://Sprites/SmolSlider/smolSlider_0014.png" id="15_1w843"]
+[ext_resource type="Texture2D" uid="uid://cadlnq0ix8dy8" path="res://Sprites/SmolSlider/smolSlider_0015.png" id="16_pnakr"]
+[ext_resource type="Texture2D" uid="uid://n2twhe2exsjj" path="res://Sprites/SmolSlider/smolSlider_0016.png" id="17_3ox77"]
+[ext_resource type="Texture2D" uid="uid://l1lmqu8jynll" path="res://Sprites/SmolSlider/smolSlider_0017.png" id="18_t565g"]
+[ext_resource type="Texture2D" uid="uid://djtuci8ljw1p5" path="res://Sprites/SmolSlider/smolSlider_0018.png" id="19_oq46y"]
+[ext_resource type="Texture2D" uid="uid://cui6d6kkyr1sx" path="res://Sprites/SmolSlider/smolSlider_0019.png" id="20_4o42s"]
+[ext_resource type="Texture2D" uid="uid://defyr42i7ssj" path="res://Sprites/SmolSlider/smolSlider_0020.png" id="21_a6hot"]
+[ext_resource type="Texture2D" uid="uid://c3gjm2av00mfv" path="res://Sprites/SmolSlider/smolSlider_0021.png" id="22_puoem"]
+[ext_resource type="Texture2D" uid="uid://bsjjvcbk11po1" path="res://Sprites/SmolSlider/smolSlider_0022.png" id="23_47wru"]
+[ext_resource type="Texture2D" uid="uid://bivknacmtupfa" path="res://Sprites/SmolSlider/smolSlider_0023.png" id="24_xel1r"]
+[ext_resource type="Texture2D" uid="uid://1wqcsv0ivy0l" path="res://Sprites/SmolSlider/smolSlider_0024.png" id="25_r6er0"]
+[ext_resource type="Texture2D" uid="uid://b5kyjxykwxwcq" path="res://Sprites/SmolSlider/smolSlider_0025.png" id="26_7um8m"]
+[ext_resource type="Texture2D" uid="uid://33wrr7s7foxl" path="res://Sprites/SmolSlider/smolSlider_0026.png" id="27_86e28"]
+[ext_resource type="Texture2D" uid="uid://btwj7jqy7m5oo" path="res://Sprites/SmolSlider/smolSlider_0027.png" id="28_e7yd0"]
+[ext_resource type="Texture2D" uid="uid://bmv1xl7p7e1jd" path="res://Sprites/SmolSlider/smolSlider_0028.png" id="29_hdrwu"]
+[ext_resource type="Texture2D" uid="uid://dcnf3ttly5moe" path="res://Sprites/SmolSlider/smolSlider_0029.png" id="30_pvydi"]
+[ext_resource type="Texture2D" uid="uid://2k210x5gwf0x" path="res://Sprites/SmolSlider/smolSlider_0030.png" id="31_m87fu"]
+[ext_resource type="Texture2D" uid="uid://dub73ds67c8j0" path="res://Sprites/x_button/x_button_0001.png" id="32_8jg6k"]
+[ext_resource type="Texture2D" uid="uid://cba04f1yf14c8" path="res://Sprites/x_button/x_button_0002.png" id="33_movpi"]
+[ext_resource type="Texture2D" uid="uid://rhy1jhiunmb4" path="res://Sprites/x_button/x_button_0003.png" id="34_axi1q"]
+[ext_resource type="Texture2D" uid="uid://8eyuecn7fhu6" path="res://Sprites/x_button/x_button_0004.png" id="35_nea7v"]
+[ext_resource type="Texture2D" uid="uid://dtglmxgrlt4gy" path="res://Sprites/x_button/x_button_0005.png" id="36_muptb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eb7rc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_oep84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_eitnm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_cc7rp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_yfims")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_gprdb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_cl6v7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_kc8nq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_x4if3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_vfxwf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ei3gv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_rkmhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_3klky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ffp6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1w843")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pnakr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_3ox77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_t565g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_oq46y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4o42s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_a6hot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_puoem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_47wru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_xel1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_r6er0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_7um8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_86e28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_e7yd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_hdrwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_pvydi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_m87fu")
+}],
+"loop": false,
+"name": &"SmolSlider",
+"speed": 30.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d45sc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_8jg6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_movpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_axi1q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_nea7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_muptb")
+}],
+"loop": true,
+"name": &"x_button",
+"speed": 5.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vi5kq"]
+line_spacing = -8.855
+shadow_size = 4
+shadow_color = Color(0, 0, 0, 0.141176)
+shadow_offset = Vector2(-0.78, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_5mkgo"]
+line_spacing = -8.855
+shadow_size = 2
+shadow_color = Color(0, 0, 0, 0.219608)
+shadow_offset = Vector2(-0.58, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+script = ExtResource("1_hhjoy")
+
+[node name="BG" type="AnimatedSprite2D" parent="."]
+texture_filter = 2
+position = Vector2(160, 160)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_eb7rc")
+animation = &"SmolSlider"
+
+[node name="StartButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 88.0
+offset_top = 192.0
+offset_right = -88.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+toggle_mode = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(160, 160)
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_d45sc")
+animation = &"x_button"
+
+[node name="MoveWindowButton" type="TextureButton" parent="."]
+layout_mode = 0
+anchor_left = 0.4375
+anchor_top = 0.396875
+anchor_right = 0.5625
+anchor_bottom = 0.521875
+metadata/_edit_use_anchors_ = true
+
+[node name="CloseButton" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.328125
+anchor_top = 0.15625
+anchor_right = 0.415625
+anchor_bottom = 0.24375
+metadata/_edit_use_anchors_ = true
+
+[node name="FileDialog" type="FileDialog" parent="."]
+title = "Select location and file name for coordinates"
+initial_position = 1
+size = Vector2i(700, 500)
+visible = true
+exclusive = false
+access = 2
+
+[node name="60FPS_Button" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 190.0
+offset_top = 127.0
+offset_right = 230.0
+offset_bottom = 167.0
+metadata/_edit_group_ = true
+
+[node name="60_Label" type="Label" parent="60FPS_Button"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -9.5
+offset_top = -11.5
+offset_right = 9.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "60
+fps"
+label_settings = SubResource("LabelSettings_vi5kq")
+horizontal_alignment = 1
+
+[node name="30FPS_Button2" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 91.0
+offset_top = 127.0
+offset_right = 131.0
+offset_bottom = 167.0
+metadata/_edit_group_ = true
+
+[node name="30_Label" type="Label" parent="30FPS_Button2"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -9.5
+offset_top = -11.5
+offset_right = 9.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "30
+fps"
+label_settings = SubResource("LabelSettings_5mkgo")
+horizontal_alignment = 1
+
+[connection signal="toggled" from="StartButton" to="." method="_on_start_button_toggled"]
+[connection signal="button_down" from="MoveWindowButton" to="." method="_on_move_window_button_button_down"]
+[connection signal="button_up" from="MoveWindowButton" to="." method="_on_move_window_button_button_up"]
+[connection signal="pressed" from="CloseButton" to="." method="_on_close_button_pressed"]
+[connection signal="file_selected" from="FileDialog" to="." method="_on_file_dialog_file_selected"]
+[connection signal="pressed" from="60FPS_Button" to="." method="_on_60fps_button_pressed"]
+[connection signal="pressed" from="30FPS_Button2" to="." method="_on_30fps_button_2_pressed"]
